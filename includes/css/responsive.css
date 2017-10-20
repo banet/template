@@ -1,0 +1,474 @@
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+      
+      
+
+
+}
+
+
+/* Medium Devices (Landscape Tablets & Medium Deskotps) */
+
+@media(min-width: 992px) and (max-width: 1199px) {
+   
+   /* Navbar */
+   .navbar {
+      background: rgba(42, 65, 73, 0.85);
+     
+   }
+   
+   /*movin Menu to the left */
+
+   .navbar-nav {
+      float: left;
+   }
+
+   /*Removing a white space from the sides */
+
+   .loops-wrapper {
+      padding: 0;
+   }
+
+   
+
+   /* Header */
+   
+   #home h1 {
+      font-size: 42px;
+   }
+
+   #home h3 {
+      font-size: 20px;
+   }
+
+   /* How it works */
+   
+   #howItWorks h2, #titleLoopsDo h2,
+   .content-box h2, #loops-different-title h2,
+   #ourSoftware-title h2, .content-box2 h2  {
+      
+      font-size:38px; 
+   }
+
+   /* Big callout */
+
+   /* bigCallOut */
+   
+   #bigCallout2, .content-box,
+   #bigCallout2, .content-box2 {
+      height: 476px;
+   }
+
+   /*Footer*/
+
+   .footer-nav li>a:link, 
+   .footer-nav li>a:visited {
+      font-size: 15px;
+   }
+   
+   .footer-nav li>a:hover, 
+   .footer-nav li>a:active {
+      font-size: 15px;
+   }
+   
+
+
+
+}
+
+
+
+
+
+/* Small devices (Portret Tablets & small Desktops) */
+
+@media (min-width:768px) and (max-width: 991px) {
+              
+            
+   /* Navbar */
+   .navbar {
+      background: rgba(42, 65, 73, 0.85);
+     
+   }
+   
+   /*movin Menu to the left */
+
+   .navbar-nav {
+      float: left;
+   }
+
+   /*Removing a white space from the sides */
+
+   .loops-wrapper {
+      padding: 0;
+   }
+
+
+   /* Header */
+   
+   #home h1 {
+      font-size: 38px;
+   }
+
+   #home h3 {
+      font-size: 20px;
+   }
+
+   /* How it works */
+   
+   #howItWorks h2, #titleLoopsDo h2,
+   .content-box h2, #loops-different-title h2,
+   #ourSoftware-title h2, .content-box2 h2  {
+      
+      font-size:34px; 
+   }
+
+
+
+
+   /*Why loops is different*/
+   
+   .loops-different-content p {
+      margin-bottom: 30px;
+   }
+
+   /* bigCallOut */
+   
+   #bigCallout2, .content-box,
+   #bigCallout2, .content-box2 {
+      height: 476px;
+   }
+
+   
+   .btn-full:link, .btn-full:visited, 
+   .btn-call:link, .btn-call:visited {
+      font-size: 14px;
+   }   
+
+
+   /*Footer*/
+
+   .footer-nav li>a:link, 
+   .footer-nav li>a:visited {
+      font-size: 13px;
+      padding: 20px 10px;
+   }
+   
+   .footer-nav li>a:hover, 
+   .footer-nav li>a:active {
+      font-size: 13px;
+   }
+
+      
+}
+
+
+/* Extra small Devices (Landscape phones & Portrait Tablets)  */
+@media(max-width: 767px) {
+     
+   
+
+            
+   /* Navbar */
+   .navbar {
+      background: rgba(42, 65, 73, 0.85);
+     
+   }
+   
+   /*movin Menu to the left */
+
+   .navbar-nav {
+      float: left;
+   }
+
+   /*Removing a white space from the sides */
+
+   .loops-wrapper {
+      padding: 0;
+   }
+
+
+   /* Header */
+   
+   #home h1 {
+
+      font-size: 28px;
+      letter-spacing: 1px;
+   }
+
+   #home h3 {
+      font-size: 14px;
+      letter-spacing: 1px;
+   }
+
+   /* How it works*/
+
+   #howItWorks h2 {
+      padding-top: 20px;
+   }
+   
+   #howItWorks p {
+      padding-bottom: 40px;
+   }
+
+
+   /*What does loops do */
+
+   #titleLoopsDo h2 {
+      padding-top: 0;
+   }
+      
+   #titleLoopsDo h4 {
+      font-size: 15px;
+   }
+
+   /* How it works */
+   
+   #howItWorks h2, #titleLoopsDo h2,
+    #loops-different-title h2,
+   #ourSoftware-title h2  {
+      
+      font-size:28px; 
+   }
+
+  /*bigCallOut */
+
+   .content-box h2, .content-box2 h2 {
+      font-size: 30px;
+      line-height: 36px;
+      padding-top: 20px;
+   }
+
+   .content-box h4, .content-box2 h4 {
+      font-size: 17px;
+      line-height: 36px;
+      margin-bottom: 0;
+   }
+   
+   .content-box2 p {
+      margin-top: 20px;
+      font-size: 14px;
+   }
+
+   /*Why loops is different*/
+   
+   .loops-different-content p {
+      margin-bottom: 30px;
+   }
+
+   /* bigCallOut */
+   
+   #bigCallout2, .content-box,
+   #bigCallout2, .content-box2 {
+      height: 476px;
+   }
+   
+   #bigCallout, .content-box {
+      height: 476px;
+   }
+   
+   .btn-full:link, .btn-full:visited, 
+   .btn-call:link, .btn-call:visited {
+      font-size: 14px;
+      padding: 10px 25px;
+      margin-top: 20px;
+   }   
+
+   /*Our sopftware */
+
+   #ourSoftware-title h4 {
+      margin-bottom: 0;
+      font-size: 17px;
+   }
+
+   .ourSoftware-image {
+      padding: 30px 30px;
+   }
+
+   .ourSoftware-image img {
+      width: 300px;
+      height: auto;
+   }
+
+
+
+}
+
+
+/* Extra small Devices (Smaller devices)  */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+   
+
+   /* Header */
+   
+   #home h1 {
+
+      font-size: 22px;
+      letter-spacing: 1px;
+      line-height: 30px;
+      margin-bottom: 20px;
+   }
+
+   #home h3 {
+      font-size: 11px;
+      letter-spacing: 1px;
+   }
+   
+   /* What we do */ 
+
+   .files-content-description h5, .loops-different-content h5, .loops-different-content h5, .list-group-item h4 {
+      font-size: 16px;
+   }
+   
+   .files-content-description p {
+      margin-right: 15px;
+   }
+   
+   /* How it works */
+   
+   #howItWorks h2, #titleLoopsDo h2,
+    #loops-different-title h2,
+   #ourSoftware-title h2  {
+      
+      font-size:26px; 
+   }
+
+
+   .btn-full:link, .btn-full:visited, 
+   .btn-call:link, .btn-call:visited {
+      font-size: 13px;
+      padding: 8px 18px;
+      margin-top: 20px;
+   }   
+
+
+   /*bigCallOut */
+
+   #bigCallout, .content-box {
+      height: 320px;
+   }
+
+   .content-box h2, .content-box2 h2 {
+      font-size: 22px;
+      line-height: 36px;
+      padding-top: 20px;
+   }
+
+   .content-box h4, .content-box2 h4 {
+      font-size: 15px;
+      line-height: 30px;
+   }
+
+   .content-box2 p {
+      margin-top: 14px;
+      font-size: 13px;
+      line-height: 30px;
+   }
+
+   /*  Footer */
+
+   #copyright {
+      font-size: 14px;
+   }
+	
+
+
+}
+
+/* Extra small Devices (Landscape phones & Portrait Tablets)  */
+
+@media (max-width: 320px) {
+
+   /* Header */
+   
+   #home h1 {
+
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 30px;
+      margin-bottom: 20px;
+   }
+
+   #home h3 {
+      font-size: 10px;
+      letter-spacing: 1px;
+   }
+
+   /*How it works */
+
+   #howItWorks p, .files-content-description p, .loops-different-content p {
+      font-size: 14px;
+   }
+   
+   /* Loops different */
+
+   #loops-different-title h4 {
+      margin-bottom: 20px;
+   }
+
+   /* What we do */ 
+
+   .files-content-description h5, .loops-different-content h5, .loops-different-content h5, .list-group-item h4 {
+      font-size: 16px;
+      line-height: 24px;
+   }
+
+   .content-box h2, .content-box2 h2 {
+      font-size: 20px;
+   }
+
+   .content-box h4, .content-box2 h4 {
+      margin-top: 0;
+   }
+
+
+   /* loops different */
+
+   #loops-different-title h2 {
+      padding-top: 20px;
+   }
+
+   .loops-different-content img {
+      max-width: 120px;
+   }
+
+   /* How it works */
+   
+   #howItWorks h2, #titleLoopsDo h2,
+    #loops-different-title h2,
+   #ourSoftware-title h2  {
+      
+      font-size:22px; 
+      line-height: 26px;
+   }
+
+   
+   #titleLoopsDo h4, #loops-different-title h4, #ourSoftware-title h4 {
+      font-size: 15px;
+      line-height: 26px;
+
+   }
+
+   /*  Footer */
+
+   #connect-with-us h3{
+      font-size: 20px;
+   }
+
+   .social-list {
+      padding-left: 13px;
+   }
+
+   #copyright {
+      font-size: 14px;
+   }
+
+
+}
